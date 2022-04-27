@@ -7,8 +7,8 @@ void main() {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Row(
-            //mainAxisAlignment: MainAxisAlignment.end,
-           crossAxisAlignment: CrossAxisAlignment.stretch
+            mainAxisAlignment: MainAxisAlignment.end,
+           crossAxisAlignment: CrossAxisAlignment.center
             ,
             children: [
               Container(
@@ -22,7 +22,7 @@ void main() {
               ),
               Container(
                 child: Text('cnd2'),
-                width: 100,
+                width: double.infinity,
                 height: 100,
                 color: Colors.blue,
               ),
@@ -37,6 +37,7 @@ void main() {
               ),
               Column(
                   mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.end
                 children: [
                   Container(
                     child: Text('cnd4'),
@@ -50,7 +51,7 @@ void main() {
                   Container(
                     child: Text('cnd5'),
                     width: 100,
-                    height: 100,
+                    height: double.infinity,
                     color: Colors.yellow,
                   ),
                   SizedBox(
