@@ -8,8 +8,7 @@ void main() {
         body: SafeArea(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.end,
-           crossAxisAlignment: CrossAxisAlignment.center
-            ,
+           crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 child: Text('cnd1'),
@@ -37,7 +36,7 @@ void main() {
               ),
               Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.end
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Container(
                     child: Text('cnd4'),
